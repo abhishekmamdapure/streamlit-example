@@ -3,6 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+from PIL import Image
 
 img = Image.open("wynum_02@2x.png")
 st.set_page_config(page_title="Wynum App", page_icon=img)
